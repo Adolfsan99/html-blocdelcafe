@@ -1,0 +1,59 @@
+body{
+  background-color: #eee9e4;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+section{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  padding: 0 10px;
+  gap: 40px;
+  max-width: 80rem; /*investigar*/
+
+}
+
+article{
+  max-width: 360px;
+  height: 540px;
+  border-radius: 10px;
+  border: solid;
+  border-width: thin;
+}
+
+img{
+  width: 100%;
+  height:210px;
+  object-fit: cover;
+}
+
+div {
+  text-align: center;
+  padding: 15px;
+}
+
+h3{
+  color: #809a70;
+  font-size: 25px;
+  
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+button{
+  font-size: 16px;
+  color: #809a70;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: solid;
+  border-width: thin;
+  background-color: #eee9e4;
+}
