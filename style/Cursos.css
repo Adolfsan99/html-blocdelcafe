@@ -5,7 +5,7 @@ body {
   min-height: 100vh;
 }
 
-section {
+.lista__cursos {
 
   display: flex;
   justify-content: center;
@@ -35,30 +35,30 @@ section {
   box-shadow: 7px 7px 14px -1px rgba(0, 0, 0, 0.35);
 }
 
-img {
+.imagen__cursos {
   width: 100%;
   height: 210px;
   object-fit: cover;
 }
 
-div {
+.info__cursos {
   text-align: center;
   padding: 10px;
 }
 
-h3 {
+.info__cursos h3 {
   color: #809a70;
   font-size: 25px;
 
 }
 
-p {
+.info__cursos p {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
 }
 
-button {
+.button__gratis {
   font-size: 16px;
   color: #809a70;
   padding: 10px 20px;
