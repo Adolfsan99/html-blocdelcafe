@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="./style/Jenny.css" />
+  <link rel="stylesheet" href="./style/Formulario_nosotros.css" />
 </head>
 
 <body>
   <section class="section_FormularioContactanos">
-    <h1>Contactanos</h1>
+    <h3>Contactanos</h3>
     <form action class="formulario">
-      <input class="controls" type="text" name="nombres" id="nombres"
+      <div class="nombre_email">
+      <input class="Nombre" type="text" name="nombres" id="nombres"
         placeholder="Nombre completo" />
-      <input class="controls" type="text" correo="correos" id="correos" placeholder="Email" />
-      <input class="controls" type="text" mensaje="mensajes" id="mensajes"
-        placeholder="Tu mensaje" /><br><br>
-      <input class="botons" type="submit" value="Enviar Mensaje" />
+      <input class="correo" type="text" correo="correos" id="correos" placeholder="Email" />
+      </div>
+      <textarea name="message" placeholder="Tu Mensaje.."></textarea>
+      <button type="submit" class="btn-submit">Enviar Mensaje</button>
       <p>¡No dudes en llenar el formulario!</p>
     </form>
   </section>

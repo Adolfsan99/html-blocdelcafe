@@ -1,0 +1,113 @@
+body{
+  background-color:#eee9e4;
+  font-family: sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+
+.section_AcercaDeNosotros{
+  display: flex;
+  width: 90%;
+  min-height: 500px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.section_AcercaDeNosotros h1{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+  color: #809a70;
+}
+
+
+.section_AcercaDeNosotros p{
+  text-align: justify-all;
+  margin-left: 10px;
+  font-size: 18px;
+  text-align: left;
+}
+
+img{
+  width: 400px;
+  min-height: 300px;
+  float: left;
+  margin: 20px;
+}
+
+<!-- formulario -->
+
+.section_FormularioContactanos{
+  width: 1000px;
+  min-height: 500px;
+}
+
+.section_FormularioContactanos{
+  width: 550px;
+  padding: 50px;
+  margin: auto;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: #000000;
+}
+
+.section_FormularioContactanos h3{
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #809a70;
+}
+
+div.nombre_email, .Nombre, .correo{
+  display: flex;
+  gap: 2rem;
+}
+
+.formulario textarea{
+  margin-top: 2rem;
+  padding: 2rem;
+  width: calc(100% - 40px);
+  resize: none;
+  border: none;
+  font-size: 18px;
+  font-family: 'calibri';
+  background-color: #eeeeee;
+  box-shadow: 4px 4px 4px 0 #30303096, -5px -5px 3px 0 #fff;
+}
+
+.Nombre, .correo {
+  width: 50%;
+  padding: 10px;
+  font-family: 'calibri';
+  font-size: 18px;
+  border: none;
+  background-color: #eeeeee;
+  box-shadow: 4px 4px 4px 0 #30303096, -5px -5px 3px 0 #fff;
+}
+
+.formulario button{
+  border: none;
+  font-size: 16px;
+  background-color: #eeeeee;
+  box-shadow: 4px 4px 4px 0 #30303096, -5px -5px 3px 0 #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  margin-top: 2rem
+}
+
+.formulario p{
+  display: flex;
+  justify-content: center;
+  color: #333;
+}
+
+
