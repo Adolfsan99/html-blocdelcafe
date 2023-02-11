@@ -1,8 +1,8 @@
-body.nuestro-blog {
+/*body.nuestro-blog {
     background-color: #ffffff;
     margin: 0px;
     padding: 0px;
-}
+}*/
 
 section.nuestro-blog {
     margin: 0px;
@@ -11,12 +11,14 @@ section.nuestro-blog {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0px;
+    padding: 0px;
 }
 
-h1.nuestro-blog {
+.h1-nuestro-blog {
     font-family: sans-serif;
     color: #809a70;
-    font-size: 2.3rem
+    font-size: 2.3rem;
 }
 
 section.recetas-nuestroblog {
@@ -24,7 +26,7 @@ section.recetas-nuestroblog {
     flex-direction: column;
 }
 
-article.nuestro-blog {
+.receta {
     width: 750px;
     min-height: 250px;
     padding: 30px;
@@ -40,7 +42,7 @@ h2.recetas{
     font-size: 1.8rem;
 }
 
-img.recetas {
+.img-recetas {
     width: 750px;
     height: 400px;
     object-fit: cover;

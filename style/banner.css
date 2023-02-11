@@ -22,6 +22,10 @@
   
 }
 
+.inicio{
+  text-decoration: none;
+}
+
 .header .logo{
   cursor: pointer; /*crea la manito al pasar por encima*/
 }

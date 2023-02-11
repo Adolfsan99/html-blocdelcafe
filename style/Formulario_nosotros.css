@@ -44,7 +44,7 @@ img{
   margin: 20px;
 }
 
-<!-- formulario -->
+/*formulario*/
 
 .section_FormularioContactanos{
   width: 1000px;
@@ -67,15 +67,16 @@ img{
   color: #809a70;
 }
 
-div.nombre_email, .Nombre, .correo{
+div.nombre_email {
   display: flex;
+  flex-direction: row;
   gap: 2rem;
 }
 
 .formulario textarea{
   margin-top: 2rem;
   padding: 2rem;
-  width: calc(100% - 40px);
+  width: 100%;
   resize: none;
   border: none;
   font-size: 18px;
