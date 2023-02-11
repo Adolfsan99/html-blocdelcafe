@@ -1,15 +1,10 @@
-html {
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
+body.nuestro-blog {
     background-color: #ffffff;
     margin: 0px;
     padding: 0px;
 }
 
-section.container-nuestroblog {
+section.nuestro-blog {
     margin: 0px;
     padding: 10px;
     background-color: #eee9e4;
@@ -18,77 +13,18 @@ section.container-nuestroblog {
     justify-content: center;
 }
 
-h1 {
+h1.nuestro-blog {
     font-family: sans-serif;
     color: #809a70;
     font-size: 2.3rem
 }
 
-h2 {
-    font-family: sans-serif;
-    color: #809a70;
-    font-size: 1.8rem;
+section.recetas-nuestroblog {
+    display: flex;
+    flex-direction: column;
 }
 
-h2.nuestroscursos {
-    font-family: sans-serif;
-    color: #809a70;
-    font-size: 1.8rem;
-    width: 200px;
-}
-
-p {
-    font-family: sans-serif;
-    font-weight: 800;
-    font-size: 16px;
-}
-
-p.subTextGreen {
-    font-family: arial;
-    height: auto;
-    width: auto;
-    color: #809a70;
-    font-size: 1.3rem;
-    font-weight: 100;
-
-}
-
-p.subTextFree {
-    font-family: arial;
-    height: auto;
-    width: auto;
-    border: none;
-    color: #333333;
-    font-size: 1.3rem;
-    font-weight: 100;
-}
-
-p.subTextBlack {
-    font-family: arial;
-    height: auto;
-    width: auto;
-    border: none;
-    color: #333333;
-    font-size: 16px;
-    font-weight: 100;
-}
-
-img.imgnuestroblog {
-    width: 750px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 5%;
-}
-
-section.sectionnuestroblog {
-    width: 150%;
-    min-height: 1000px;
-    padding: 40px;
-    margin: 80px;
-    background-color: #eee9e4;
-}
-
-article.articlenuestroblog {
+article.nuestro-blog {
     width: 750px;
     min-height: 250px;
     padding: 30px;
@@ -96,10 +32,65 @@ article.articlenuestroblog {
     border-radius: 2%;
     background-color: #eee9e4;
     box-shadow: -3px -3px 3px #ffffff, 3px 3px 3px rgba(0, 0, 0, 0.6);
-    ;
 }
 
-aside.asidenuestroblog {
+h2.recetas{
+    font-family: sans-serif;
+    color: #809a70;
+    font-size: 1.8rem;
+}
+
+img.recetas {
+    width: 750px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+p.receta-descripcion {
+    font-family: arial;
+    height: auto;
+    width: auto;
+    border: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+h2.nuestros-cursos {
+    font-family: sans-serif;
+    color: #809a70;
+    font-size: 1.8rem;
+    width: 200px;
+}
+
+p.subtexto-verde {
+    font-family: arial;
+    height: auto;
+    width: auto;
+    color: #809a70;
+    font-size: 1.3rem;
+    font-weight: 100;
+
+}
+
+p.subtexto-negro {
+    font-family: arial;
+    height: auto;
+    width: auto;
+    border: none;
+    color: #333333;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+p.talleres{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+aside.nuestro-blog {
     padding: 0px 0px 0px 20px;
     margin: 45px;
     width: 225px;
@@ -107,12 +98,12 @@ aside.asidenuestroblog {
     background-color: #eee9e4;
 }
 
-div {
+div.precio-y-detalles {
     display: flex;
     justify-content: space-between;
 }
 
-button {
+button.mas-informacion {
     width: 200px;
     background-color: #809a70;
     color: #fff;
