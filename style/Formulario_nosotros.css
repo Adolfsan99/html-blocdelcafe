@@ -52,12 +52,11 @@ img{
 }
 
 .section_FormularioContactanos{
-  width: 550px;
+  width: 1000px;
   padding: 50px;
   margin: auto;
   border-radius: 4px;
   font-family: 'calibri';
-  color: #000000;
 }
 
 .section_FormularioContactanos h3{
@@ -70,12 +69,12 @@ img{
 div.nombre_email {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .formulario textarea{
-  margin-top: 2rem;
-  padding: 2rem;
+  margin-top: 1rem;
+  padding: 1rem;
   width: 100%;
   resize: none;
   border: none;
@@ -96,19 +95,27 @@ div.nombre_email {
 }
 
 .formulario button{
+  width: 20%;
   border: none;
-  font-size: 16px;
+  font-size: 18px;
   background-color: #eeeeee;
   box-shadow: 4px 4px 4px 0 #30303096, -5px -5px 3px 0 #fff;
-  padding: 1rem 2rem;
+  padding: 1rem;
   border-radius: 0.5rem;
-  margin-top: 2rem
+  margin-top: 1rem
+}
+
+button:hover{
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(38, 43, 43);
 }
 
 .formulario p{
   display: flex;
+  font-size: 20px;
   justify-content: center;
-  color: #333;
+  color: #000000;
 }
 
 
