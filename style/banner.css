@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap');
 
-*{
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+section.inicio-banner {
   box-sizing: border-box; /* hace que el padding y el border pasen a formar parte del cálculo del ancho de la caja y no lo suman posteriormente */
   margin: 0;
   padding: 0; /* area de relleno de los cuatro lados */
@@ -77,12 +82,16 @@ transform: scale(1.2);
 .header .btn button{
   font-weight: 300;
   color: #f5f5f5;
+  margin-right: 50px;
   padding: 7px 15px;
   background-color:rgb(158, 158, 44) ;
   border:none;
   border-radius: 100px ;
   cursor: pointer;
   transition: all 0.3s;
+  box-sizing: border-box; /* hace que el padding y el border pasen a formar parte del cálculo del ancho de la caja y no lo suman posteriormente */
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
 }
 
 .header .btn button:hover{
