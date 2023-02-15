@@ -8,15 +8,13 @@ body{
 
 .section_AcercaDeNosotros{
   display: flex;
-  width: 90%;
+  width: 100%;
   min-height: 500px;
-  align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
-div{
-  padding: 10px;
+.section_AcercaDeNosotros div{
+  padding-top: 3em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,11 +22,11 @@ div{
 
 
 .section_AcercaDeNosotros h1{
-  padding: 10px;
-  text-align: center;
-  margin-top: 30px;
+  padding: 30px;
+  margin-bottom: 10px;
   font-size: 40px;
   color: #809a70;
+  text-align: center;
 }
 
 
@@ -40,12 +38,11 @@ div{
   line-height: 1.5;
 }
 
-img{
+.section_AcercaDeNosotros img{
   width: 350px;
   min-height: 300px;
   float: left;
   margin: 40px;
-  vertical-align: middle;
 }
 
 /*formulario*/
