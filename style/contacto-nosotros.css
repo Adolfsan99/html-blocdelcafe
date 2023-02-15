@@ -8,18 +8,15 @@ body{
 
 .section_AcercaDeNosotros{
   display: flex;
-  width: 100%;
+  width: 90%;
   min-height: 500px;
+  align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
-<<<<<<< HEAD
-.section_AcercaDeNosotros div{
-  padding-top: 3em;
-=======
 div{
 
->>>>>>> 581a39ac621060ecb1c4035c0248a9f4a094971b
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,11 +24,11 @@ div{
 
 
 .section_AcercaDeNosotros h1{
-  padding: 30px;
-  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 30px;
   font-size: 40px;
   color: #809a70;
-  text-align: center;
 }
 
 
@@ -43,7 +40,7 @@ div{
   line-height: 1.5;
 }
 
-.section_AcercaDeNosotros img{
+img{
   width: 350px;
   min-height: 300px;
   float: left;
