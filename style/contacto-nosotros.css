@@ -13,8 +13,13 @@ body{
   justify-content: center;
 }
 
+<<<<<<< HEAD
 .section_AcercaDeNosotros div{
   padding-top: 3em;
+=======
+div{
+
+>>>>>>> 581a39ac621060ecb1c4035c0248a9f4a094971b
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,6 +76,13 @@ div.nombre_email {
   display: flex;
   flex-direction: row;
   gap: 1rem;
+}
+
+.formulario textarea{
+  margin-top: 1rem;
+  padding: 1rem;
+=======
+  gap: 2rem;
 }
 
 .formulario textarea{
