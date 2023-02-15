@@ -8,15 +8,13 @@ body{
 
 .section_AcercaDeNosotros{
   display: flex;
-  width: 90%;
+  width: 100%;
   min-height: 500px;
-  align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
-div{
-
+.section_AcercaDeNosotros div{
+  padding-top: 3em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,11 +22,11 @@ div{
 
 
 .section_AcercaDeNosotros h1{
-  padding: 10px;
-  text-align: center;
+  padding: 20px;
   margin-top: 30px;
   font-size: 40px;
   color: #809a70;
+  text-align: center;
 }
 
 
@@ -40,7 +38,7 @@ div{
   line-height: 1.5;
 }
 
-img{
+.section_AcercaDeNosotros img{
   width: 350px;
   min-height: 300px;
   float: left;
@@ -78,13 +76,7 @@ div.nombre_email {
 .formulario textarea{
   margin-top: 1rem;
   padding: 1rem;
-  gap: 2rem;
-}
-
-.formulario textarea{
-  margin-top: 1rem;
-  padding: 1rem;
-  width: 100%;
+  width: calc(100% - 30px);
   resize: none;
   border: none;
   font-size: 18px;
