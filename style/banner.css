@@ -108,7 +108,7 @@ transform: scale(1.2);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/img/haciendo-cafe.jpg);
+  background-image: url(./img/haciendo-cafe.jpg);
 }
 
 .capa{
