@@ -1,3 +1,11 @@
+@media screen and (max-width: 768px) {
+    /* Todos los elementos HTML tendrán un ancho del 100% */
+    * {
+      width: 100%;
+    }
+  }
+  
+
 /*body.nuestro-blog {
     background-color: #ffffff;
     margin: 0px;
